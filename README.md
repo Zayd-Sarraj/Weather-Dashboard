@@ -20,11 +20,11 @@ None!
 ​
 ## Technologies Used
 ​
-HTML
+* HTML
 ​
-CSS
+* CSS
 ​
-Javascript
+* Javascript
 ​
 #  Direct link to site:
 https://zaydorade.github.io/Weather-Dashboard/

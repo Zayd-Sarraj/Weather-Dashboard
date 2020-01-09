@@ -1,6 +1,6 @@
 var q = "";
 // Click listener for the Search Button
-$("#button-addon2").click(function (e) {
+$("#button-addon2").click(function() {
     q = document.getElementById("citySearch").value;
     previousCities();
     clearWeather();
@@ -115,7 +115,7 @@ function clearWeather() {
 }
 // Function to get UV Index using latitude and longitude parameters
 function getUvIndex(la, lo) {
-    var queryURL = "http://api.openweathermap.org/data/2.5/uvi?appid=b79b01d2b2979ed0c619ce14bf31c3f6&lat=" + la + "&lon=" + lo
+    var queryURL = "https://api.openweathermap.org/data/2.5/uvi?appid=b79b01d2b2979ed0c619ce14bf31c3f6&lat=" + la + "&lon=" + lo
     $.ajax({
         url: queryURL,
         method: "GET"
